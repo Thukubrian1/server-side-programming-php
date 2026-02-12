@@ -1,8 +1,3 @@
--- ============================================
--- TICKET TRIAGE SYSTEM DATABASE SETUP
--- KyU IT Support Platform
--- ============================================
-
 -- Create database
 CREATE DATABASE IF NOT EXISTS ticket_system_db;
 USE ticket_system_db;

@@ -1,7 +1,6 @@
 <?php
 /**
  * Database Configuration for Grading System
- * SSE 2304 Lab Evaluation Tool
  */
 
 // Database credentials
@@ -36,7 +35,6 @@ define('CAT1_WEIGHT', 15);
 define('CAT2_WEIGHT', 15);
 define('ASSIGNMENT_WEIGHT', 10);
 define('TOTAL_INTERNAL_MARKS', 40);
-define('LECTURER_EMAIL', 'swanjau@kyu.ac.ke');
 
 $unitTitle = "Server-Side Programming";
 ?>

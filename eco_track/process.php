@@ -154,7 +154,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <h1>✅ Submission Successful!</h1>
             <div class="success-box">
                 <p><strong>Thank you for contributing to a sustainable campus!</strong></p>
-                <p>Your sustainability action has been recorded in the database.</p>
+                <p>Your sustainability action has been recorded.</p>
             </div>
             
             <div class="submission-id">

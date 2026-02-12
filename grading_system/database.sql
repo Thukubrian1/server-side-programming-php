@@ -1,8 +1,3 @@
--- ============================================
--- GRADING SYSTEM DATABASE SETUP
--- SSE 2304 Lab Evaluation Tool
--- ============================================
-
 -- Create database
 CREATE DATABASE IF NOT EXISTS grading_system_db;
 USE grading_system_db;

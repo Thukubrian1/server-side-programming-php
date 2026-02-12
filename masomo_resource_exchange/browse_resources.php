@@ -10,7 +10,7 @@ require_once 'config.php';
 $conn = getDBConnection();
 
 // Pagination setup
-$records_per_page = 12;
+$records_per_page = 5;
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
 $offset = ($page - 1) * $records_per_page;
 

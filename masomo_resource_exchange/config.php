@@ -7,7 +7,7 @@
 // Database credentials
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
-define('DB_PASS', ''); // Default XAMPP MySQL password is empty
+define('DB_PASS', '');
 define('DB_NAME', 'masomo_exchange_db');
 
 // Create database connection

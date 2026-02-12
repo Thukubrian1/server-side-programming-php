@@ -1,8 +1,3 @@
--- ============================================
--- ECO-TRACK DATABASE SETUP
--- Kirinyaga University Sustainability Portal
--- ============================================
-
 -- Create database
 CREATE DATABASE IF NOT EXISTS eco_track_db;
 USE eco_track_db;

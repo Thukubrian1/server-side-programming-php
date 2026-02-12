@@ -1,18 +1,8 @@
 <?php
-/**
- * Configuration File for Eco-Track Student Sustainability Portal
- * Kirinyaga University
- */
-
 // Define configuration variables
 $universityName = "Kirinyaga University";
 $unitCode = "SSE 2304";
 $currentYear = 2024;
-
-/**
- * Database Configuration for Eco-Track Portal
- * Kirinyaga University
- */
 
 // Database credentials
 define('DB_HOST', 'localhost');
@@ -47,9 +37,4 @@ function testConnection() {
     }
     return false;
 }
-
-// University configuration
-$universityName = "Kirinyaga University";
-$unitCode = "SSE 2304";
-$currentYear = 2024;
 ?>

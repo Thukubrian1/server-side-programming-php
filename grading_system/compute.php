@@ -269,7 +269,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <?php endif; ?>
                 
                 <div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #ddd; font-size: 12px; color: #666; text-align: center;">
-                    This result has been saved to the database.<br>
+                    This result has been saved.<br>
                     Note: Final marks include the Main Exam (60 marks) which is not included in this calculation.
                 </div>
             </div>

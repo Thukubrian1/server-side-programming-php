@@ -17,7 +17,4 @@ define('CAT2_WEIGHT', 15);
 define('ASSIGNMENT_WEIGHT', 10);
 define('TOTAL_INTERNAL_MARKS', 40);
 
-// Lecturer contact
-define('LECTURER_EMAIL', 'swanjau@kyu.ac.ke');
-
 ?>
