@@ -8,11 +8,10 @@
 define('COURSE_TITLE', 'Server-Side Programming');
 
 // Define variable for lecturer's name
-$lecturerName = "Dr. S. Wanjau"; // As per course outline
+$lecturerName = "Dr. Stephen Kahara Wanjau, PhD"; // As per course outline
 
 // Optional: Additional configuration
 define('UNIT_CODE', 'SSE 2304');
-define('SCHOOL_NAME', 'School of Pure & Applied Sciences');
 
 ?>
 
@@ -43,5 +42,5 @@ define('SCHOOL_NAME', 'School of Pure & Applied Sciences');
     <div class="header">
         <h1>📚 KyU Masomo Resource Exchange</h1>
         <p><?php echo COURSE_TITLE; ?> (<?php echo UNIT_CODE; ?>)</p>
-        <p>Lecturer: <?php echo $lecturerName; ?> | <?php echo SCHOOL_NAME; ?></p>
+        <p>Lecturer: <?php echo $lecturerName; ?></p>
     </div>

@@ -1,8 +1,6 @@
 <?php
-/**
- * Validate and Process Support Tickets with Database Integration
- * Implements security measures and MySQL storage
- */
+
+date_default_timezone_set('Africa/Nairobi');
 
 require_once 'config.php';
 
@@ -197,7 +195,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <h1>✅ Ticket Submitted Successfully!</h1>
             <div class="success-box">
                 <p><strong>Thank you for reporting this issue.</strong></p>
-                <p>Your support ticket has been saved to the database and will be processed by our IT team.</p>
+                <p>Your support ticket has been saved and will be processed by our IT team.</p>
             </div>
             
             <div class="ticket-number">

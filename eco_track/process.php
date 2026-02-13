@@ -1,8 +1,6 @@
 <?php
-/**
- * Process Eco-Track Form Submissions with Database Integration
- * Handles POST data with server-side validation and MySQL storage
- */
+
+date_default_timezone_set('Africa/Nairobi');
 
 require_once 'config.php';
 
@@ -186,7 +184,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </tr>
                 <tr>
                     <td><strong>Submission Time</strong></td>
-                    <td><?php echo date('F j, Y - g:i A'); ?></td>
+                    <td><?php echo date('l, F j, Y - g:i A'); ?></td>
                 </tr>
             </table>
             

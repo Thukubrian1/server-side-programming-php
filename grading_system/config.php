@@ -4,10 +4,10 @@
  */
 
 // Database credentials
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
+define('DB_HOST', '');
+define('DB_USER', '');
 define('DB_PASS', '');
-define('DB_NAME', 'grading_system_db');
+define('DB_NAME', '');
 
 // Create database connection
 function getDBConnection() {
@@ -35,6 +35,7 @@ define('CAT1_WEIGHT', 15);
 define('CAT2_WEIGHT', 15);
 define('ASSIGNMENT_WEIGHT', 10);
 define('TOTAL_INTERNAL_MARKS', 40);
+define('LECTURER_EMAIL', 'swanjau@kyu.ac.ke');
 
 $unitTitle = "Server-Side Programming";
 ?>

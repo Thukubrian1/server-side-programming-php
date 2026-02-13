@@ -1,8 +1,4 @@
 <?php
-/**
- * Constants and Configuration for SSE 2304 Grading System
- * Kirinyaga University
- */
 
 // Define Passmark as a constant (40%)
 define('PASSMARK', 40);
@@ -16,5 +12,6 @@ define('CAT1_WEIGHT', 15);
 define('CAT2_WEIGHT', 15);
 define('ASSIGNMENT_WEIGHT', 10);
 define('TOTAL_INTERNAL_MARKS', 40);
+
 
 ?>

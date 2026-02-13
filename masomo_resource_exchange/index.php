@@ -1,11 +1,9 @@
 <?php
-/**
- * Index Page with Day-Based Messages
- * KyU Masomo Resource Exchange
- */
 
 // Get current day of the week
-$currentDay = date('l'); // Returns full day name: Monday, Tuesday, etc.
+$currentDay = date('l');
+
+date_default_timezone_set('Africa/Nairobi');
 
 // Determine message based on current day using switch statement
 $dayMessage = "";

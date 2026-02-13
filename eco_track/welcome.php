@@ -1,16 +1,13 @@
 <?php
-/**
- * Welcome Page for Eco-Track Portal
- * Displays personalized welcome message with dynamic timestamp
- */
 
-// Include configuration file
 require_once 'config.php';
+
+date_default_timezone_set('Africa/Nairobi');
 
 // Get current timestamp
 $currentDateTime = date('l, F j, Y - g:i A');
 
-$currentHour = (int)date('G'); // 24-hour format without leading zeros
+$currentHour = (int)date('G');
 $systemStatus = "";
 
 if ($currentHour >= 0 && $currentHour < 2) {
@@ -20,6 +17,7 @@ if ($currentHour >= 0 && $currentHour < 2) {
     $systemStatus = "System Active";
     $statusClass = "active";
 }
+
 ?>
 
 <!DOCTYPE html>

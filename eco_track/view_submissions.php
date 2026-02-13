@@ -1,12 +1,7 @@
 <?php
-/**
- * View All Sustainability Submissions
- * Eco-Track Portal - Database Display
- */
 
 require_once 'config.php';
 
-// Get database connection
 $conn = getDBConnection();
 
 // Pagination setup

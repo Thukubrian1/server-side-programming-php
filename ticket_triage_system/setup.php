@@ -1,8 +1,4 @@
 <?php
-/**
- * Setup and Configuration File
- * KyU IT Support Ticket Triage System
- */
 
 // Define constant for IT Support Email
 define('IT_SUPPORT_EMAIL', 'support@kyu.ac.ke');

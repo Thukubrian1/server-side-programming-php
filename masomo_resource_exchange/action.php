@@ -1,8 +1,6 @@
 <?php
-/**
- * Process Resource Submission with Database Integration
- * KyU Masomo Resource Exchange
- */
+
+date_default_timezone_set('Africa/Nairobi');
 
 require_once 'config.php';
 

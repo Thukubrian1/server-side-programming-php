@@ -1,8 +1,4 @@
 <?php
-/**
- * Grade Input Form
- * Collects student scores for internal assessments
- */
 
 require_once 'constants.php';
 ?>

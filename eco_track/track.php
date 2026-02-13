@@ -1,7 +1,5 @@
 <?php
-/**
- * Data Collection Form for Eco-Track Portal
- */
+
 require_once 'config.php';
 ?>
 

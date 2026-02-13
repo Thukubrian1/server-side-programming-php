@@ -5,10 +5,10 @@ $unitCode = "SSE 2304";
 $currentYear = 2024;
 
 // Database credentials
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
+define('DB_HOST', '');
+define('DB_USER', '');
 define('DB_PASS', ''); 
-define('DB_NAME', 'eco_track_db');
+define('DB_NAME', '');
 
 // Create database connection
 function getDBConnection() {
